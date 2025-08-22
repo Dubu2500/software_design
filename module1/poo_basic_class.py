@@ -4,7 +4,7 @@ class Gato:
     ''' Crea un objeto del tipo gato con características básicas '''
     # Recibimos la instancia como primer argumento
     # Podemos nombrar al argumento diferente pero por convención usamos self
-    def __init__(self, nombre:str, edad:int, peso:float, color:str):
+    def __init__(self, nombre:str, edad:int, peso:float, color:str):#este es el constructor para python
         # VARIABLES DE INSTANCIA
         self.nombre:str = nombre
         self.edad:int = edad
@@ -12,7 +12,7 @@ class Gato:
         self.color:str = color
     
     # El argumento self se pasa de manera automática
-    def detalles(self) -> str:
+    def detalles(self) -> str: 
         ''' Muestra los detalles del objeto tipo gato '''
         # A continuación se utiliza el método format para reemplazar valores de
         # variables en un string
